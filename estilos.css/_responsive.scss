@@ -1,0 +1,26 @@
+p,
+h1 {
+    font-size: 12px;
+   }
+   
+   /* Resto de reglas en orden creciente */
+   @media (min-width: 576px) {
+      p {
+          font-size: 14px;
+      }
+   }
+   @media (min-width: 768px) {
+      p {
+          font-size: 16px;
+      }
+   }
+   @media (min-width: 992px) {
+      p {
+          font-size: 20px;
+      }
+   }
+   @media (min-width: 1200px) {
+      p {
+          font-size: 24px;
+      }
+   }
